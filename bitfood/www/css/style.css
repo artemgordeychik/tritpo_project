@@ -1,0 +1,245 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color:#F0E68C;
+	color: #333;
+	font-family: "Segoe-UI", Arial, sans-serif;
+	font-size: 1en;
+	line-height: 135%;
+	float: left;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+a {
+	color: #d38484;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #efdea0;
+}
+
+a, a:hover {
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+.clear {
+	clear: both;
+}
+/*стили для шапки*/
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #006400;
+	border-bottom: 2px solid silver;
+	margin-bottom: 20px;
+}
+
+header #logo {
+	width: 30%;
+	float: left;
+	
+}
+header #logo a {
+	color: #939393;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #logo a img {
+	width: 250px;
+	height: 50px;
+	float: left;
+	margin-right: 5px;
+}
+
+header: #logo span {
+	color: #e36565;
+}
+
+header #menuHead {
+	width: 34%;
+	float: left;
+}
+
+header #menuHead div {
+	float: left;
+	padding: 5px;
+	background-color: #ff0000;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+header #menuHead div img {
+	height: 55px;
+	float: left;
+}
+
+header #menuHead div:hover {
+	background-color: #e7e7e7;
+}
+
+header #regAuth {
+	width: 30%;
+	float: left;
+	text-align: right; 
+	font-size: 1.2em;
+	font-family: Comic Sans MS;
+}
+
+/*Стили для всего документа*/
+
+#wrapper {
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+}
+
+/*Стили для левой колонки*/
+
+#wrapper #leftCol{
+	width: 70%;
+	margin-right: 10%;
+	float: left;
+}
+
+#wrapper #leftCol #bigArticle{
+	width: 107%;
+
+	background-color: #f6f6f6;
+	padding: 1%;
+	float: left;
+}
+
+#wrapper #leftCol #bigArticle img{
+	width: 100%;
+	float: left;
+	
+}
+#wrapper #leftCol .article{
+	width: 45%; 
+	margin-left: 1%;
+	background-color: #f6f6f6;
+	padding: 1%;
+	float: left;
+}
+#wrapper #leftCol .article div.more{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 10%;
+	text-align: center;
+	margin-top: 10px;
+	font-family: Comic Sans MS;
+}
+
+#wrapper #leftCol input{
+	width: 40%;
+	margin-left: 30%;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	color: #008000;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	font-family: Comic Sans MS;
+}
+
+#wrapper #leftCol input:focus, #wrapper #leftCol textarea:focus {
+	border: 2px solid #f78080;
+}
+
+#wrapper #leftCol input#done:hover{
+		border: 2px solid #f8d881;
+		cursor: pointer;
+}
+
+#wrapper #leftCol textarea {
+	width: 50%;
+	height: 150px;
+	margin-left: 25%;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	color: #008000;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	resize: none;
+	font-family: Comic Sans MS;
+}
+
+#wrapper #leftCol #messageShow {
+	font-size: 1.2em;
+	float: left;
+	color: red;
+	width: 100%;
+	text-align: center;
+}
+
+/*стили для страницы о нас*/
+#wrapper #leftCol #about_us{
+	width: 76%;
+	margin-left: 10%;
+	border: 1px solid silver;
+	background-color: #f4f4f4;
+	padding: 2%;
+}
+/*стили для правой колонки*/
+#wrapper #rightCol{
+	width: 20%;
+	float: left;
+}
+
+#wrapper #rightCol .banner{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+/*Стили для Footer*/
+
+footer {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-top: 2px, solid silver;
+	margin-top: 10px;
+}
+
+footer #social {
+	float: left;
+	width: 50%;
+}
+
+footer #social img {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 5px;
+}
+
+footer #rights{
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size: 1.1em;
+}
